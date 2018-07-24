@@ -1,17 +1,9 @@
 {
     "DNDConfig": null,
     "__parentReadjusting__": false,
-    "_bottom_": {
-        "type": "number",
-        "value": "0"
-    },
     "_height_": {
         "type": "string",
-        "value": "34%"
-    },
-    "_left_": {
-        "type": "string",
-        "value": "0dp"
+        "value": "80dp"
     },
     "_margin_": [
         0,
@@ -27,33 +19,43 @@
         0
     ],
     "_percent_": true,
-    "_right_": {
-        "type": "number",
-        "value": "0"
-    },
-    "_skin_": "sdbb5b049ac6471f856767b71eba42ed",
+    "_skin_": "sfa840364b564421b7150aa325ff128e",
     "_top_": {
         "type": "string",
-        "value": "66%"
+        "value": "30dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "80%"
     },
     "allboxes": [],
     "autogrowmode": 0,
     "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50%"
+    },
     "children": [
-        "Label0d97f7dd78a9944",
-        "Switch0b29e1b9613764a"
+        "CopyFlexContainerErrCustom32231",
+        "FlexContainer0e4857dbdc2fa4e",
+        "FlexContainer0e889cc8f3ab047"
     ],
     "clipbounds": true,
     "containerweight": 100,
+    "disabledSkins": {
+        "focusSkin": "s977182d1e924003abc6b3b172fdad2d"
+    },
     "enablescrolling": true,
-    "id": "FlexContainer0jc632061d00545",
+    "id": "CopyFlexContainerErrCustom0i801c4f174a14a",
+    "ide_onTouchEnd": "AS_FlexContainer_be783ea1898a41f5ac171a52e20af23c",
+    "ide_onTouchMove": "AS_FlexContainer_d7c32aadb2e74f6b99130b94101779cd",
     "info": null,
     "iscustomlayout": false,
-    "isvisible": true,
-    "kuid": "ca214080f639497390f1e573158e6af8",
+    "isvisible": false,
+    "kuid": "a2150580248b4ccdbc411815bdef9fe3",
     "layouttype": 2,
     "name": "kony.ui.FlexContainer",
-    "parent": "FlexContainer0if48c7223aa04f",
+    "parent": "FlexContainer0e0fafc78a23741",
     "pf": "FormLoginVariant2",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,

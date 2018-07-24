@@ -1,17 +1,13 @@
 {
     "DNDConfig": null,
     "__parentReadjusting__": false,
-    "_bottom_": {
-        "type": "number",
-        "value": "0"
-    },
     "_height_": {
-        "type": "string",
-        "value": "34%"
+        "type": "number",
+        "value": "50"
     },
     "_left_": {
         "type": "string",
-        "value": "0dp"
+        "value": "25.00%"
     },
     "_margin_": [
         0,
@@ -27,33 +23,36 @@
         0
     ],
     "_percent_": true,
-    "_right_": {
-        "type": "number",
-        "value": "0"
-    },
-    "_skin_": "sdbb5b049ac6471f856767b71eba42ed",
+    "_skin_": "sefac03c0ca94b4392c8208291ccdef0",
     "_top_": {
         "type": "string",
-        "value": "66%"
+        "value": "15dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "65%"
     },
     "allboxes": [],
     "autogrowmode": 0,
     "canUpdateUI": true,
+    "centery": {
+        "type": "number",
+        "value": "40"
+    },
     "children": [
-        "Label0d97f7dd78a9944",
-        "Switch0b29e1b9613764a"
+        "CopyLabel0c62b34aa333741"
     ],
     "clipbounds": true,
     "containerweight": 100,
     "enablescrolling": true,
-    "id": "FlexContainer0jc632061d00545",
+    "id": "CopyFlexContainerErrCustom32231",
     "info": null,
     "iscustomlayout": false,
     "isvisible": true,
-    "kuid": "ca214080f639497390f1e573158e6af8",
+    "kuid": "a76f784bfe0442e1b9d67cd2c4883ce0",
     "layouttype": 2,
     "name": "kony.ui.FlexContainer",
-    "parent": "FlexContainer0if48c7223aa04f",
+    "parent": "CopyFlexContainerErrCustom0i801c4f174a14a",
     "pf": "FormLoginVariant2",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,

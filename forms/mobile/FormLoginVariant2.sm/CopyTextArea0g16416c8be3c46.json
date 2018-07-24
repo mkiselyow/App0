@@ -22,8 +22,8 @@
         4,
         4
     ],
-    "_placeholder_": "email address",
-    "_skin_": "s581b5ac5f214b3d85b7c8f9dfee60a1",
+    "_placeholder_": "password",
+    "_skin_": "s713f593716c48ea8dd798211c8f75a7",
     "_text_": "",
     "_top_": {
         "type": "string",
@@ -57,12 +57,14 @@
         "focusSkin": "scd14c9512d74d00893cc27c93e9d06c"
     },
     "id": "CopyTextArea0g16416c8be3c46",
+    "ide_onTextChange": "AS_TextArea_g77680f645704dac95854a09f5e458f0",
     "info": null,
     "iscustomlayout": false,
     "isvisible": true,
     "keyboardstyle": "A",
     "keyboardtype": "A",
     "kuid": "e8a845ab35d74f9790d8b6b72e572ad0",
+    "maxtextlength": 10,
     "mode": "A",
     "name": "kony.ui.TextArea2",
     "numberofvisiblelines": 3,

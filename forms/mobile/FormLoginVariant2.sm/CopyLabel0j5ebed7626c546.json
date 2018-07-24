@@ -8,7 +8,7 @@
     },
     "_left_": {
         "type": "string",
-        "value": "10dp"
+        "value": "128dp"
     },
     "_margin_": [
         1,
@@ -23,10 +23,10 @@
         0
     ],
     "_skin_": "sd7ae711a2b843eb91197535e08ccedb",
-    "_text_": "Remember me",
+    "_text_": "Kony Weather Application",
     "_top_": {
         "type": "string",
-        "value": "25dp"
+        "value": "670dp"
     },
     "_width_": {
         "type": "ref",
@@ -40,9 +40,13 @@
         }
     },
     "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50%"
+    },
     "containerweight": 100,
     "contentalignment": 4,
-    "id": "Label0d97f7dd78a9944",
+    "id": "CopyLabel0j5ebed7626c546",
     "info": null,
     "ipad": {
         "psp": {
@@ -56,9 +60,9 @@
     },
     "iscustomlayout": false,
     "isvisible": true,
-    "kuid": "d9c67729570340b4a73db6fcd545dd02",
+    "kuid": "dafff0c08a9c48ffa6a89a1c98eb0b4c",
     "name": "kony.ui.Label",
-    "parent": "FlexContainer0jc632061d00545",
+    "parent": "FlexContainer0c7c2ae6b6e7640",
     "pf": "FormLoginVariant2",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,

@@ -36,7 +36,8 @@
     "autogrowmode": 0,
     "canUpdateUI": true,
     "children": [
-        "FlexContainer0c7c2ae6b6e7640"
+        "FlexContainer0c7c2ae6b6e7640",
+        "CopyFlexContainerErrCustom0i801c4f174a14a"
     ],
     "clipbounds": true,
     "containerweight": 100,

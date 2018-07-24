@@ -1,0 +1,139 @@
+{
+    "AS_TextArea_be59f936f9154a09ba8870656f856bf0": {
+        "id": "AS_TextArea_be59f936f9154a09ba8870656f856bf0",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "FormLoginVariant2",
+            "type": "forms",
+            "platform": "",
+            "KUID": "i1591484dcb8499cba6bf3d04d3ac24a"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "IF_CONDITION__g45e610b2965479fa8196e620b1379c2",
+            "type": "IF_CONDITION",
+            "conditions": [{
+                "leftValueType": "widgetprop",
+                "leftValue": "this.view.TextArea0g8c4581680c241.text",
+                "operator": "===",
+                "rightValueType": "value",
+                "rightValue": "'some_mail@gmail.com'",
+                "leftItemKUID": "i1591484dcb8499cba6bf3d04d3ac24a",
+                "leftWidgetKUID": "ba4e14b76f0a4699bb0114583d70c49d"
+            }],
+            "parentId": null,
+            "callbackType": null,
+            "criteria": "all"
+        }, {
+            "id": "ELSE_CONDITION__a7c5ff2006d14d849ff2a44bf56918d6",
+            "type": "ELSE_CONDITION",
+            "conditions": [{
+                "leftValueType": "widgetprop",
+                "leftValue": "",
+                "operator": "===",
+                "rightValueType": "widgetprop",
+                "rightValue": ""
+            }],
+            "parentId": null,
+            "callbackType": null,
+            "criteria": "all"
+        }, {
+            "id": "STYLE_ACTION____a2664221972040ef927633470fc9cef3",
+            "type": "STYLE_ACTION",
+            "itemType": "FORM",
+            "itemId": "FormLoginVariant2",
+            "widgetId": "TextArea0g8c4581680c241",
+            "itemKUID": "i1591484dcb8499cba6bf3d04d3ac24a",
+            "widgetKUID": "ba4e14b76f0a4699bb0114583d70c49d",
+            "wType": "TextArea",
+            "animationObject": {
+                "anchorPoint": {},
+                "stepConfig": {
+                    "timingFunction": "kony.anim.EASE"
+                },
+                "backgroundColor": "ff000000",
+                "opacity": 35
+            },
+            "config": {
+                "delay": "0",
+                "iterationCount": 1,
+                "fillMode": "kony.anim.FILL_MODE_FORWARDS",
+                "duration": "400"
+            },
+            "start": "Immediately",
+            "parentAnimation": "STYLE_ACTION____bc4343eaf999488ab8336ff8577f8b3e",
+            "animationId": "STYLE_ACTION____a2664221972040ef927633470fc9cef3",
+            "displayAnimationId": "STYLE_ACTION____a2664221972040ef927633470fc9cef3",
+            "forkedPlatform": "all",
+            "parentId": "ELSE_CONDITION__a7c5ff2006d14d849ff2a44bf56918d6",
+            "callbackType": null,
+            "widgetPath": "this.view.TextArea0g8c4581680c241"
+        }, {
+            "id": "SET_FORM_WIDGET_PROPERTY_Untitled___j66cf45c82054f8aa6261baa2a9b91bb",
+            "type": "SET_WIDGET_PROPERTY",
+            "itemType": "FORM",
+            "itemId": "FormLoginVariant2",
+            "widgetId": "CopyLabel0c62b34aa333741",
+            "propertyName": "text",
+            "propertyValue": "email not 'some_mail@gmail.com'",
+            "itemKUID": "i1591484dcb8499cba6bf3d04d3ac24a",
+            "widgetKUID": "c176331ce8ab494fa5cc7a34c6363753",
+            "isSkinProperty": false,
+            "wType": "Label",
+            "forkedPlatform": "all",
+            "parentId": "IF_CONDITION__g45e610b2965479fa8196e620b1379c2",
+            "callbackType": null,
+            "widgetPath": "this.view.CopyLabel0c62b34aa333741"
+        }, {
+            "id": "STYLE_ACTION____bc4343eaf999488ab8336ff8577f8b3e",
+            "type": "STYLE_ACTION",
+            "itemType": "FORM",
+            "itemId": "FormLoginVariant2",
+            "widgetId": "TextArea0g8c4581680c241",
+            "itemKUID": "i1591484dcb8499cba6bf3d04d3ac24a",
+            "widgetKUID": "ba4e14b76f0a4699bb0114583d70c49d",
+            "wType": "TextArea",
+            "animationObject": {
+                "anchorPoint": {},
+                "stepConfig": {
+                    "timingFunction": "kony.anim.EASE"
+                },
+                "backgroundColor": "ff000000",
+                "opacity": 35
+            },
+            "config": {
+                "delay": "0",
+                "iterationCount": 1,
+                "fillMode": "kony.anim.FILL_MODE_FORWARDS",
+                "duration": "400"
+            },
+            "start": "Immediately",
+            "animationId": "STYLE_ACTION____bc4343eaf999488ab8336ff8577f8b3e",
+            "displayAnimationId": "STYLE_ACTION____bc4343eaf999488ab8336ff8577f8b3e",
+            "forkedPlatform": "all",
+            "parentId": "IF_CONDITION__g45e610b2965479fa8196e620b1379c2",
+            "callbackType": null,
+            "widgetPath": "this.view.TextArea0g8c4581680c241"
+        }, {
+            "id": "SET_FORM_WIDGET_PROPERTY_Untitled___h387cbc4a85846bcbf7507d6746f30f5",
+            "type": "SET_WIDGET_PROPERTY",
+            "itemType": "FORM",
+            "itemId": "FormLoginVariant2",
+            "widgetId": "CopyFlexContainerErrCustom0i801c4f174a14a",
+            "propertyName": "isVisible",
+            "propertyValue": "true",
+            "itemKUID": "i1591484dcb8499cba6bf3d04d3ac24a",
+            "widgetKUID": "a2150580248b4ccdbc411815bdef9fe3",
+            "isSkinProperty": false,
+            "wType": "FlexContainer",
+            "forkedPlatform": "all",
+            "parentId": "IF_CONDITION__g45e610b2965479fa8196e620b1379c2",
+            "callbackType": null,
+            "widgetPath": "this.view.CopyFlexContainerErrCustom0i801c4f174a14a"
+        }]
+    }
+}

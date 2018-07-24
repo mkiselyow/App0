@@ -57,6 +57,7 @@
         "focusSkin": "scd14c9512d74d00893cc27c93e9d06c"
     },
     "id": "TextArea0g8c4581680c241",
+    "ide_onTextChange": "AS_TextArea_be59f936f9154a09ba8870656f856bf0",
     "info": null,
     "iscustomlayout": false,
     "isvisible": true,

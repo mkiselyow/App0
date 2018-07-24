@@ -23,7 +23,7 @@
         0
     ],
     "_skin_": "sd7ae711a2b843eb91197535e08ccedb",
-    "_text_": "Remember me",
+    "_text_": "Some Alert Msg",
     "_top_": {
         "type": "string",
         "value": "25dp"
@@ -40,9 +40,13 @@
         }
     },
     "canUpdateUI": true,
+    "centery": {
+        "type": "string",
+        "value": "50%"
+    },
     "containerweight": 100,
     "contentalignment": 4,
-    "id": "Label0d97f7dd78a9944",
+    "id": "CopyLabel0c62b34aa333741",
     "info": null,
     "ipad": {
         "psp": {
@@ -56,9 +60,9 @@
     },
     "iscustomlayout": false,
     "isvisible": true,
-    "kuid": "d9c67729570340b4a73db6fcd545dd02",
+    "kuid": "c176331ce8ab494fa5cc7a34c6363753",
     "name": "kony.ui.Label",
-    "parent": "FlexContainer0jc632061d00545",
+    "parent": "CopyFlexContainerErrCustom32231",
     "pf": "FormLoginVariant2",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
