@@ -1,0 +1,29 @@
+{
+    "AS_Button_ja29858f194343b086286d2392c138c2": {
+        "id": "AS_Button_ja29858f194343b086286d2392c138c2",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "FormLogOut",
+            "type": "forms",
+            "platform": "",
+            "KUID": "g4ac0b23b40b4fdfaeb875c14d8cf851"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "NAVIGATE_TO_FORM___aa521bea11cc434689a29d17fb171edb",
+            "type": "NAVIGATE_TO_FORM",
+            "formId": "FormLogin",
+            "formKUID": "b77e86e93fea4fee9cfab4da38c3e60b",
+            "mappings": {},
+            "mappingsOrder": [],
+            "parentId": "",
+            "callbackType": null,
+            "enableMappingEditor": true,
+            "package": ""
+        }]
+    }
+}

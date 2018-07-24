@@ -1,0 +1,18 @@
+{
+    "AS_Button_bc1c005767d740cabdaafc572e8d0212": {
+        "id": "AS_Button_bc1c005767d740cabdaafc572e8d0212",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "FormLogin",
+            "type": "forms",
+            "platform": null,
+            "KUID": "b77e86e93fea4fee9cfab4da38c3e60b"
+        },
+        "language": "js",
+        "actions": []
+    }
+}

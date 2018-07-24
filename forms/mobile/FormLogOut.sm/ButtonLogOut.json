@@ -1,0 +1,53 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "50dp"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "60dp"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "s2a4ef19585b4ddd8877f0643969ada4",
+    "_text_": "Log Out",
+    "_top_": {
+        "type": "string",
+        "value": "392dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "260dp"
+    },
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "contentalignment": 5,
+    "displaytext": true,
+    "focusskin": "se6c113be4134283bd1e1c16b98c80c9",
+    "id": "ButtonLogOut",
+    "ide_onClick": "AS_Button_ja29858f194343b086286d2392c138c2",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "a44a3b63aff2458792059ec9faee6d84",
+    "name": "kony.ui.Button",
+    "parent": "FlexBg",
+    "pf": "FormLogOut",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "wType": "Button",
+    "zindex": 1
+}

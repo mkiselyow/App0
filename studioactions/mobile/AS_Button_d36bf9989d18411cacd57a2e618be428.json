@@ -1,0 +1,18 @@
+{
+    "AS_Button_d36bf9989d18411cacd57a2e618be428": {
+        "id": "AS_Button_d36bf9989d18411cacd57a2e618be428",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "FormLogOut",
+            "type": "forms",
+            "platform": null,
+            "KUID": "g4ac0b23b40b4fdfaeb875c14d8cf851"
+        },
+        "language": "js",
+        "actions": []
+    }
+}
