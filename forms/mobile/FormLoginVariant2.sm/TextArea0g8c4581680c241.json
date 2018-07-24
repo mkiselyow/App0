@@ -53,7 +53,9 @@
     "containerheightmode": 1,
     "containerweight": 100,
     "contentalignment": 1,
-    "focusskin": "scd14c9512d74d00893cc27c93e9d06c",
+    "disabledSkins": {
+        "focusSkin": "scd14c9512d74d00893cc27c93e9d06c"
+    },
     "id": "TextArea0g8c4581680c241",
     "info": null,
     "iscustomlayout": false,
