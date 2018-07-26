@@ -10,7 +10,6 @@
             "name": "changedtext"
         }],
         "contextObj": {
-            "name": "FormLogin",
             "type": "forms",
             "platform": null,
             "KUID": "b77e86e93fea4fee9cfab4da38c3e60b"

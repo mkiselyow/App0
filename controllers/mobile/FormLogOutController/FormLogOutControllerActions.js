@@ -5,7 +5,7 @@ define({
     /** onClick defined for ButtonLogOut **/
     AS_Button_ja29858f194343b086286d2392c138c2: function AS_Button_ja29858f194343b086286d2392c138c2(eventobject) {
         var self = this;
-        var ntf = new kony.mvc.Navigation("FormLogin");
+        var ntf = new kony.mvc.Navigation("FormLoginVariant2");
         ntf.navigate();
     }
 });

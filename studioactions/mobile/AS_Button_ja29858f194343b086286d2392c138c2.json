@@ -16,8 +16,8 @@
         "actions": [{
             "id": "NAVIGATE_TO_FORM___aa521bea11cc434689a29d17fb171edb",
             "type": "NAVIGATE_TO_FORM",
-            "formId": "FormLogin",
-            "formKUID": "b77e86e93fea4fee9cfab4da38c3e60b",
+            "formId": "FormLoginVariant2",
+            "formKUID": "i1591484dcb8499cba6bf3d04d3ac24a",
             "mappings": {},
             "mappingsOrder": [],
             "parentId": "",

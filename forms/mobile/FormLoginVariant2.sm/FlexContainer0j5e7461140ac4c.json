@@ -48,6 +48,10 @@
     "isvisible": true,
     "kuid": "j4cdb4184402469c925c7228ab40a270",
     "layouttype": 2,
+    "maxheight": {
+        "type": "string",
+        "value": "33%"
+    },
     "name": "kony.ui.FlexContainer",
     "parent": "FlexContainer0if48c7223aa04f",
     "pf": "FormLoginVariant2",

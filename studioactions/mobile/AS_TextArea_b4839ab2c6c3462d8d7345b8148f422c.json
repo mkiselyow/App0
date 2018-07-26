@@ -1,0 +1,33 @@
+{
+    "AS_TextArea_b4839ab2c6c3462d8d7345b8148f422c": {
+        "id": "AS_TextArea_b4839ab2c6c3462d8d7345b8148f422c",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "FormLoginVariant2",
+            "type": "forms",
+            "platform": "",
+            "KUID": "i1591484dcb8499cba6bf3d04d3ac24a"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "SET_FORM_WIDGET_PROPERTY____e748660bd98e4187bba2452b2f2c8d5b",
+            "type": "SET_WIDGET_PROPERTY",
+            "itemType": "FORM",
+            "itemId": "FormLoginVariant2",
+            "widgetId": "FlexContainer0e8bc44cec82048",
+            "propertyName": "top",
+            "propertyValue": "25%",
+            "itemKUID": "i1591484dcb8499cba6bf3d04d3ac24a",
+            "widgetKUID": "bd58f5a63b1d486785510f359f7bc0d2",
+            "isSkinProperty": false,
+            "wType": "FlexContainer",
+            "forkedPlatform": "all",
+            "parentId": null,
+            "widgetPath": "this.view.FlexContainer0e8bc44cec82048"
+        }]
+    }
+}

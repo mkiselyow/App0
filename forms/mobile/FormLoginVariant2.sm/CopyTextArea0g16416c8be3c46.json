@@ -34,6 +34,8 @@
         "value": "100%"
     },
     "android": {
+        "ide_onBeginEditing": "AS_TextArea_ga0a957dc2014774a8025976c9d12cc5",
+        "ide_onEndEditing": "AS_TextArea_c63f18b254b3454f928d5b002e1198b2",
         "psp": {
             "placeholderSkin": "sa80f4cb548d4914ba7496623e7db447"
         }
@@ -57,8 +59,12 @@
         "focusSkin": "scd14c9512d74d00893cc27c93e9d06c"
     },
     "id": "CopyTextArea0g16416c8be3c46",
-    "ide_onTextChange": "AS_TextArea_g77680f645704dac95854a09f5e458f0",
+    "ide_onDone": "AS_TextArea_g273b10d830a4d5ba13baf919d0ad734",
     "info": null,
+    "iphone": {
+        "ide_onBeginEditing": "AS_TextArea_i4bbeee078ed40b3aa7b022569a2ef46",
+        "ide_onEndEditing": "AS_TextArea_h1b1d2c9df6942458d62d0a6a21170b7"
+    },
     "iscustomlayout": false,
     "isvisible": true,
     "keyboardstyle": "A",

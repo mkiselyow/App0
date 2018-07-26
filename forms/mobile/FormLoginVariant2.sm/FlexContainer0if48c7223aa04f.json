@@ -1,13 +1,13 @@
 {
     "DNDConfig": null,
     "__parentReadjusting__": false,
-    "_bottom_": {
+    "_height_": {
         "type": "string",
-        "value": "80dp"
+        "value": "70%"
     },
     "_left_": {
         "type": "string",
-        "value": "10dp"
+        "value": "2%"
     },
     "_margin_": [
         0,
@@ -24,13 +24,13 @@
     ],
     "_percent_": true,
     "_right_": {
-        "type": "number",
-        "value": "10"
+        "type": "string",
+        "value": "2%"
     },
     "_skin_": "sefac03c0ca94b4392c8208291ccdef0",
     "_top_": {
         "type": "string",
-        "value": "100dp"
+        "value": "15%"
     },
     "allboxes": [],
     "autogrowmode": 0,

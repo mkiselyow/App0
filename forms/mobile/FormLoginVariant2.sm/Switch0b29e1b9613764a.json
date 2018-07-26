@@ -44,7 +44,7 @@
     "leftsidetext": "ON",
     "name": "kony.ui.Switch",
     "onslide": null,
-    "osPlatform": "iphone",
+    "osPlatform": "android",
     "osVersion": "iOS7",
     "parent": "FlexContainer0jc632061d00545",
     "pf": "FormLoginVariant2",

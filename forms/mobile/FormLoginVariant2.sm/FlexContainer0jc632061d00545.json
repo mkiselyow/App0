@@ -7,7 +7,7 @@
     },
     "_height_": {
         "type": "string",
-        "value": "34%"
+        "value": "33%"
     },
     "_left_": {
         "type": "string",
@@ -52,6 +52,14 @@
     "isvisible": true,
     "kuid": "ca214080f639497390f1e573158e6af8",
     "layouttype": 2,
+    "maxheight": {
+        "type": "string",
+        "value": "34%"
+    },
+    "minheight": {
+        "type": "string",
+        "value": "66dp"
+    },
     "name": "kony.ui.FlexContainer",
     "parent": "FlexContainer0if48c7223aa04f",
     "pf": "FormLoginVariant2",

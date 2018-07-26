@@ -1,15 +1,16 @@
 {
-    "AS_Button_bc1c005767d740cabdaafc572e8d0212": {
-        "id": "AS_Button_bc1c005767d740cabdaafc572e8d0212",
+    "AS_TextArea_d8653af726c74399a937f1ba2574ad0c": {
+        "id": "AS_TextArea_d8653af726c74399a937f1ba2574ad0c",
         "type": "ACTION_SEQUENCE",
         "params": [{
             "datatype": "collection",
             "name": "eventobject"
         }],
         "contextObj": {
+            "name": "FormLoginVariant2",
             "type": "forms",
-            "platform": null,
-            "KUID": "b77e86e93fea4fee9cfab4da38c3e60b"
+            "platform": "",
+            "KUID": "i1591484dcb8499cba6bf3d04d3ac24a"
         },
         "language": "js",
         "actions": []

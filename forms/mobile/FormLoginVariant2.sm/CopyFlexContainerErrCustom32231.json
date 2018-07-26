@@ -2,8 +2,8 @@
     "DNDConfig": null,
     "__parentReadjusting__": false,
     "_height_": {
-        "type": "number",
-        "value": "50"
+        "type": "string",
+        "value": "80%"
     },
     "_left_": {
         "type": "string",
@@ -24,10 +24,6 @@
     ],
     "_percent_": true,
     "_skin_": "sefac03c0ca94b4392c8208291ccdef0",
-    "_top_": {
-        "type": "string",
-        "value": "15dp"
-    },
     "_width_": {
         "type": "string",
         "value": "65%"
@@ -36,8 +32,8 @@
     "autogrowmode": 0,
     "canUpdateUI": true,
     "centery": {
-        "type": "number",
-        "value": "40"
+        "type": "string",
+        "value": "50%"
     },
     "children": [
         "CopyLabel0c62b34aa333741"

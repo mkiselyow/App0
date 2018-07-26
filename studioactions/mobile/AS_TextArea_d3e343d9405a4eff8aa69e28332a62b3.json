@@ -1,0 +1,137 @@
+{
+    "AS_TextArea_d3e343d9405a4eff8aa69e28332a62b3": {
+        "id": "AS_TextArea_d3e343d9405a4eff8aa69e28332a62b3",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "FormLoginVariant2",
+            "type": "forms",
+            "platform": "",
+            "KUID": "i1591484dcb8499cba6bf3d04d3ac24a"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "IF_CONDITION__e6d14b97f4b340a8afd4fd4196d6cbc7",
+            "type": "IF_CONDITION",
+            "conditions": [{
+                "leftValueType": "widgetprop",
+                "leftValue": "this.view.TextArea0g8c4581680c241.text",
+                "operator": "===",
+                "rightValueType": "value",
+                "rightValue": "'some_mail@gmail.com'",
+                "leftItemKUID": "i1591484dcb8499cba6bf3d04d3ac24a",
+                "leftWidgetKUID": "ba4e14b76f0a4699bb0114583d70c49d"
+            }],
+            "parentId": null,
+            "criteria": "all"
+        }, {
+            "id": "SET_FORM_WIDGET_PROPERTY____b3278ebe641f4222a3ec7e88c6a02fa9",
+            "type": "SET_WIDGET_PROPERTY",
+            "itemType": "FORM",
+            "itemId": "FormLoginVariant2",
+            "widgetId": "CopyLabel0c62b34aa333741",
+            "propertyName": "text",
+            "propertyValue": "email not 'some_mail@gmail.com'",
+            "itemKUID": "i1591484dcb8499cba6bf3d04d3ac24a",
+            "widgetKUID": "c176331ce8ab494fa5cc7a34c6363753",
+            "isSkinProperty": false,
+            "wType": "Label",
+            "forkedPlatform": "all",
+            "parentId": "IF_CONDITION__e6d14b97f4b340a8afd4fd4196d6cbc7",
+            "callbackType": null,
+            "widgetPath": "this.view.CopyLabel0c62b34aa333741"
+        }, {
+            "id": "____c1dce31eaf014ffc8bb56c10419f7ada",
+            "type": "STYLE_ACTION",
+            "itemType": "FORM",
+            "itemId": "FormLoginVariant2",
+            "widgetId": "TextArea0g8c4581680c241",
+            "itemKUID": "i1591484dcb8499cba6bf3d04d3ac24a",
+            "widgetKUID": "ba4e14b76f0a4699bb0114583d70c49d",
+            "wType": "TextArea",
+            "animationObject": {
+                "anchorPoint": {},
+                "stepConfig": {
+                    "timingFunction": "kony.anim.EASE"
+                },
+                "backgroundColor": "ff000000",
+                "opacity": 35
+            },
+            "config": {
+                "delay": "0",
+                "iterationCount": 1,
+                "fillMode": "kony.anim.FILL_MODE_FORWARDS",
+                "duration": "400"
+            },
+            "start": "Immediately",
+            "animationId": "____c1dce31eaf014ffc8bb56c10419f7ada",
+            "displayAnimationId": "STYLE_ACTION____bc4343eaf999488ab8336ff8577f8b3e",
+            "forkedPlatform": "all",
+            "parentId": "IF_CONDITION__e6d14b97f4b340a8afd4fd4196d6cbc7",
+            "callbackType": null,
+            "widgetPath": "this.view.TextArea0g8c4581680c241"
+        }, {
+            "id": "SET_FORM_WIDGET_PROPERTY____g24df79125be4d7fac47ad5891e9942e",
+            "type": "SET_WIDGET_PROPERTY",
+            "itemType": "FORM",
+            "itemId": "FormLoginVariant2",
+            "widgetId": "CopyFlexContainerErrCustom0i801c4f174a14a",
+            "propertyName": "isVisible",
+            "propertyValue": "true",
+            "itemKUID": "i1591484dcb8499cba6bf3d04d3ac24a",
+            "widgetKUID": "a2150580248b4ccdbc411815bdef9fe3",
+            "isSkinProperty": false,
+            "wType": "FlexContainer",
+            "forkedPlatform": "all",
+            "parentId": "IF_CONDITION__e6d14b97f4b340a8afd4fd4196d6cbc7",
+            "callbackType": null,
+            "widgetPath": "this.view.CopyFlexContainerErrCustom0i801c4f174a14a"
+        }, {
+            "id": "ELSE_CONDITION__hfa9fc4ce60a4395bb9069a809ef8c5f",
+            "type": "ELSE_CONDITION",
+            "conditions": [{
+                "leftValueType": "widgetprop",
+                "leftValue": "",
+                "operator": "===",
+                "rightValueType": "widgetprop",
+                "rightValue": ""
+            }],
+            "parentId": null,
+            "criteria": "all"
+        }, {
+            "id": "____cdea55f62e4a4b04a795ff2b1e4bfc6b",
+            "type": "STYLE_ACTION",
+            "itemType": "FORM",
+            "itemId": "FormLoginVariant2",
+            "widgetId": "TextArea0g8c4581680c241",
+            "itemKUID": "i1591484dcb8499cba6bf3d04d3ac24a",
+            "widgetKUID": "ba4e14b76f0a4699bb0114583d70c49d",
+            "wType": "TextArea",
+            "animationObject": {
+                "anchorPoint": {},
+                "stepConfig": {
+                    "timingFunction": "kony.anim.EASE"
+                },
+                "backgroundColor": "ff000000",
+                "opacity": 35
+            },
+            "config": {
+                "delay": "0",
+                "iterationCount": 1,
+                "fillMode": "kony.anim.FILL_MODE_FORWARDS",
+                "duration": "400"
+            },
+            "start": "Immediately",
+            "parentAnimation": "STYLE_ACTION____bc4343eaf999488ab8336ff8577f8b3e",
+            "animationId": "____cdea55f62e4a4b04a795ff2b1e4bfc6b",
+            "displayAnimationId": "STYLE_ACTION____a2664221972040ef927633470fc9cef3",
+            "forkedPlatform": "all",
+            "parentId": "ELSE_CONDITION__hfa9fc4ce60a4395bb9069a809ef8c5f",
+            "callbackType": null,
+            "widgetPath": "this.view.TextArea0g8c4581680c241"
+        }]
+    }
+}
