@@ -8,7 +8,7 @@
     },
     "_height_": {
         "type": "string",
-        "value": "10%"
+        "value": "40dp"
     },
     "_margin_": [
         6,
