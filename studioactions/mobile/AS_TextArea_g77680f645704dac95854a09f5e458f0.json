@@ -18,7 +18,7 @@
             "type": "IF_CONDITION",
             "conditions": [{
                 "leftValueType": "widgetprop",
-                "leftValue": "this.view.CopyTextArea0g16416c8be3c46.text",
+                "leftValue": "",
                 "operator": "===",
                 "rightValueType": "value",
                 "rightValue": "111111",
@@ -46,7 +46,6 @@
             "type": "STYLE_ACTION",
             "itemType": "FORM",
             "itemId": "FormLoginVariant2",
-            "widgetId": "CopyTextArea0g16416c8be3c46",
             "itemKUID": "i1591484dcb8499cba6bf3d04d3ac24a",
             "widgetKUID": "e8a845ab35d74f9790d8b6b72e572ad0",
             "wType": "TextArea",
@@ -70,8 +69,7 @@
             "displayAnimationId": "STYLE_ACTION____gb303224623a484caaff810620c6fbc7",
             "forkedPlatform": "all",
             "parentId": "ELSE_CONDITION__d29f18afdae442e3a82f63f6391a1c99",
-            "callbackType": null,
-            "widgetPath": "this.view.CopyTextArea0g16416c8be3c46"
+            "callbackType": null
         }, {
             "id": "SET_FORM_WIDGET_PROPERTY_Untitled___aec65d0c43554c43b8580b2fc8df7494",
             "type": "SET_WIDGET_PROPERTY",
@@ -109,7 +107,6 @@
             "type": "STYLE_ACTION",
             "itemType": "FORM",
             "itemId": "FormLoginVariant2",
-            "widgetId": "CopyTextArea0g16416c8be3c46",
             "itemKUID": "i1591484dcb8499cba6bf3d04d3ac24a",
             "widgetKUID": "e8a845ab35d74f9790d8b6b72e572ad0",
             "wType": "TextArea",
@@ -133,8 +130,7 @@
             "displayAnimationId": "STYLE_ACTION____ee6ba4f7880e4b20af80c2a6a1de3324",
             "forkedPlatform": "all",
             "parentId": "IF_CONDITION__cb301fa12be24eadb8e745da13f5b648",
-            "callbackType": null,
-            "widgetPath": "this.view.CopyTextArea0g16416c8be3c46"
+            "callbackType": null
         }]
     }
 }

@@ -1,0 +1,81 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizTextBox2",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_padding_": [
+        3,
+        0,
+        0,
+        0
+    ],
+    "_placeholder_": "password",
+    "_skin_": "sc51b32668e841d2bfe691e381aa3166",
+    "_text_": "",
+    "_top_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "android": {
+        "ide_onBeginEditing": "AS_TextField_a69ead7ef3de417aa333c3b2c1abec58",
+        "ide_onEndEditing": "AS_TextField_i123335996cd46759c0b20c03cbe8bae",
+        "psp": {
+            "keyboardActionLabel": 1
+        }
+    },
+    "autocapitalize": "none",
+    "autocomplete": false,
+    "autocorrect": false,
+    "autofilter": false,
+    "canUpdateUI": true,
+    "containerheight": "",
+    "containerheightmode": 1,
+    "containerweight": 100,
+    "contentalignment": 4,
+    "disabledSkins": {
+        "focusSkin": "sc02fcccf1cb42d0ba334d28466eadd8",
+        "placeholderSkin": "s63e488b94e747798d1be0ab4e69b1b8"
+    },
+    "id": "CopyTextField0i687b0214b454d",
+    "ide_onDone": "AS_TextField_a42a959ab4954594b042cf03ccbbb271",
+    "info": null,
+    "iphone": {
+        "ide_onBeginEditing": "AS_TextField_f1b7ffd250ce4a3483514c892c2ef30f",
+        "ide_onEndEditing": "AS_TextField_i6fda4df19664494b4162dcfd71eb414"
+    },
+    "iscustomlayout": false,
+    "isvisible": true,
+    "keyboardactionlabel": 1,
+    "keyboardstyle": "A",
+    "keyboardtype": "A",
+    "kuid": "afb64958bc7a42dba201d87f728d97a2",
+    "mode": "A",
+    "name": "kony.ui.TextBox2",
+    "parent": "CopyFlexContainer0ae3c4ac6568f4b",
+    "pf": "FormLoginVariant2",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "securetextentry": false,
+    "textinputmode": "A",
+    "tooltip": "",
+    "viewtype": "default",
+    "wType": "TextField",
+    "zindex": 1
+}

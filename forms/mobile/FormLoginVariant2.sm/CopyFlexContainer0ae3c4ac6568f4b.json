@@ -36,8 +36,8 @@
     "autogrowmode": 0,
     "canUpdateUI": true,
     "children": [
-        "CopyTextArea0g16416c8be3c46",
-        "CopyFlexContainer0b9fc80995d994d"
+        "CopyFlexContainer0b9fc80995d994d",
+        "CopyTextField0i687b0214b454d"
     ],
     "clipbounds": true,
     "containerweight": 100,

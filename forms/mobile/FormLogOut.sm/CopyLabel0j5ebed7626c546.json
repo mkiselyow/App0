@@ -2,13 +2,13 @@
     "@class": "com.kony.gen.viz.model.component.KVizLabel",
     "DNDConfig": null,
     "__parentReadjusting__": false,
+    "_bottom_": {
+        "type": "string",
+        "value": "2%"
+    },
     "_height_": {
         "type": "ref",
         "value": "preferred"
-    },
-    "_left_": {
-        "type": "string",
-        "value": "5%"
     },
     "_margin_": [
         1,
@@ -23,7 +23,7 @@
         0
     ],
     "_skin_": "sd7ae711a2b843eb91197535e08ccedb",
-    "_text_": "Some Alert Msg",
+    "_text_": "Kony Weather Application",
     "_width_": {
         "type": "ref",
         "value": "preferred"
@@ -36,13 +36,13 @@
         }
     },
     "canUpdateUI": true,
-    "centery": {
+    "centerx": {
         "type": "string",
         "value": "50%"
     },
     "containerweight": 100,
-    "contentalignment": 4,
-    "id": "CopyLabel0c62b34aa333741",
+    "contentalignment": 5,
+    "id": "CopyLabel0j5ebed7626c546",
     "info": null,
     "ipad": {
         "psp": {
@@ -56,10 +56,10 @@
     },
     "iscustomlayout": false,
     "isvisible": true,
-    "kuid": "c176331ce8ab494fa5cc7a34c6363753",
+    "kuid": "a179bf09eb934c0e81583c66b9265a04",
     "name": "kony.ui.Label",
-    "parent": "CopyFlexContainerErrCustom32231",
-    "pf": "FormLoginVariant2",
+    "parent": "FlexContainer0c7c2ae6b6e7640",
+    "pf": "FormLogOut",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
     "textstyle": {},

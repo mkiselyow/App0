@@ -18,7 +18,7 @@
             "type": "IF_CONDITION",
             "conditions": [{
                 "leftValueType": "widgetprop",
-                "leftValue": "this.view.TextArea0g8c4581680c241.text",
+                "leftValue": "",
                 "operator": "===",
                 "rightValueType": "value",
                 "rightValue": "'some_mail@gmail.com'",
@@ -48,7 +48,6 @@
             "type": "STYLE_ACTION",
             "itemType": "FORM",
             "itemId": "FormLoginVariant2",
-            "widgetId": "TextArea0g8c4581680c241",
             "itemKUID": "i1591484dcb8499cba6bf3d04d3ac24a",
             "widgetKUID": "ba4e14b76f0a4699bb0114583d70c49d",
             "wType": "TextArea",
@@ -67,12 +66,12 @@
                 "duration": "400"
             },
             "start": "Immediately",
+            "parentAnimation": "____cdea55f62e4a4b04a795ff2b1e4bfc6b",
             "animationId": "____c1dce31eaf014ffc8bb56c10419f7ada",
             "displayAnimationId": "STYLE_ACTION____bc4343eaf999488ab8336ff8577f8b3e",
             "forkedPlatform": "all",
             "parentId": "IF_CONDITION__e6d14b97f4b340a8afd4fd4196d6cbc7",
-            "callbackType": null,
-            "widgetPath": "this.view.TextArea0g8c4581680c241"
+            "callbackType": null
         }, {
             "id": "SET_FORM_WIDGET_PROPERTY____g24df79125be4d7fac47ad5891e9942e",
             "type": "SET_WIDGET_PROPERTY",
@@ -106,7 +105,6 @@
             "type": "STYLE_ACTION",
             "itemType": "FORM",
             "itemId": "FormLoginVariant2",
-            "widgetId": "TextArea0g8c4581680c241",
             "itemKUID": "i1591484dcb8499cba6bf3d04d3ac24a",
             "widgetKUID": "ba4e14b76f0a4699bb0114583d70c49d",
             "wType": "TextArea",
@@ -115,7 +113,7 @@
                 "stepConfig": {
                     "timingFunction": "kony.anim.EASE"
                 },
-                "backgroundColor": "ff000000",
+                "backgroundColor": "297a0000",
                 "opacity": 35
             },
             "config": {
@@ -130,8 +128,7 @@
             "displayAnimationId": "STYLE_ACTION____a2664221972040ef927633470fc9cef3",
             "forkedPlatform": "all",
             "parentId": "ELSE_CONDITION__hfa9fc4ce60a4395bb9069a809ef8c5f",
-            "callbackType": null,
-            "widgetPath": "this.view.TextArea0g8c4581680c241"
+            "callbackType": null
         }]
     }
 }

@@ -3,7 +3,7 @@
     "__parentReadjusting__": false,
     "_height_": {
         "type": "string",
-        "value": "683dp"
+        "value": "100%"
     },
     "_left_": {
         "type": "string",
@@ -23,7 +23,7 @@
         0
     ],
     "_percent_": true,
-    "_skin_": "s69d2cadc848455db09982fe0c298bd6",
+    "_skin_": "sa74a1f5f02b4db29a46cf87a2d50355",
     "_top_": {
         "type": "string",
         "value": "0dp"
@@ -36,16 +36,16 @@
     "autogrowmode": 0,
     "canUpdateUI": true,
     "children": [
-        "FlexBg"
+        "FlexContainer0c7c2ae6b6e7640"
     ],
     "clipbounds": true,
     "containerweight": 100,
     "enablescrolling": true,
-    "id": "FlexGlobal",
+    "id": "FlexContainer0e0fafc78a23741",
     "info": null,
     "iscustomlayout": false,
     "isvisible": true,
-    "kuid": "h610dbc44cd54d0a9c0cbb213c89f4df",
+    "kuid": "fbe4e45ded194d649e9dc8e16705d60e",
     "layouttype": 2,
     "name": "kony.ui.FlexContainer",
     "parent": "FormLogOut",

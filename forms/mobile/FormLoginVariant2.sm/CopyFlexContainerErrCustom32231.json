@@ -33,7 +33,7 @@
     "canUpdateUI": true,
     "centery": {
         "type": "string",
-        "value": "50%"
+        "value": "50.18%"
     },
     "children": [
         "CopyLabel0c62b34aa333741"

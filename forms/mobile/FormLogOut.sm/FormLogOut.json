@@ -30,7 +30,7 @@
     },
     "canUpdateUI": true,
     "children": [
-        "FlexGlobal"
+        "FlexContainer0e0fafc78a23741"
     ],
     "containerweight": 100,
     "controllerInfo": {

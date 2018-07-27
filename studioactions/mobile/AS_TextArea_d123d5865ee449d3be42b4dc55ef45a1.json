@@ -18,7 +18,7 @@
             "type": "IF_CONDITION",
             "conditions": [{
                 "leftValueType": "widgetprop",
-                "leftValue": "this.view.CopyTextArea0g16416c8be3c46.text",
+                "leftValue": "",
                 "operator": "===",
                 "rightValueType": "value",
                 "rightValue": "111111",
@@ -32,7 +32,6 @@
             "type": "SET_WIDGET_PROPERTY",
             "itemType": "FORM",
             "itemId": "FormLoginVariant2",
-            "widgetId": "CopyTextArea0g16416c8be3c46",
             "propertyName": "text",
             "propertyValue": "Not '111111' password",
             "itemKUID": "i1591484dcb8499cba6bf3d04d3ac24a",
@@ -41,14 +40,12 @@
             "wType": "TextArea",
             "forkedPlatform": "all",
             "parentId": "IF_CONDITION_ide_onTextChange_bda5a5cec6cf4e7183b7de920d4952f8",
-            "callbackType": null,
-            "widgetPath": "this.view.CopyTextArea0g16416c8be3c46"
+            "callbackType": null
         }, {
             "id": "___ide_onTextChange_e9a405ddab2146bbb68600de55271916",
             "type": "STYLE_ACTION",
             "itemType": "FORM",
             "itemId": "FormLoginVariant2",
-            "widgetId": "CopyTextArea0g16416c8be3c46",
             "itemKUID": "i1591484dcb8499cba6bf3d04d3ac24a",
             "widgetKUID": "e8a845ab35d74f9790d8b6b72e572ad0",
             "wType": "TextArea",
@@ -71,8 +68,7 @@
             "displayAnimationId": "STYLE_ACTION____ee6ba4f7880e4b20af80c2a6a1de3324",
             "forkedPlatform": "all",
             "parentId": "IF_CONDITION_ide_onTextChange_bda5a5cec6cf4e7183b7de920d4952f8",
-            "callbackType": null,
-            "widgetPath": "this.view.CopyTextArea0g16416c8be3c46"
+            "callbackType": null
         }, {
             "id": "ELSE_CONDITION_ide_onTextChange_eed40ca37ea0406dae97ffe50aca52ef",
             "type": "ELSE_CONDITION",
@@ -90,7 +86,6 @@
             "type": "STYLE_ACTION",
             "itemType": "FORM",
             "itemId": "FormLoginVariant2",
-            "widgetId": "CopyTextArea0g16416c8be3c46",
             "itemKUID": "i1591484dcb8499cba6bf3d04d3ac24a",
             "widgetKUID": "e8a845ab35d74f9790d8b6b72e572ad0",
             "wType": "TextArea",
@@ -114,14 +109,12 @@
             "displayAnimationId": "STYLE_ACTION____gb303224623a484caaff810620c6fbc7",
             "forkedPlatform": "all",
             "parentId": "ELSE_CONDITION_ide_onTextChange_eed40ca37ea0406dae97ffe50aca52ef",
-            "callbackType": null,
-            "widgetPath": "this.view.CopyTextArea0g16416c8be3c46"
+            "callbackType": null
         }, {
             "id": "SET_FORM_WIDGET_PROPERTY____d8dbc67c658845908b0856073cc49ce3",
             "type": "SET_WIDGET_PROPERTY",
             "itemType": "FORM",
             "itemId": "FormLoginVariant2",
-            "widgetId": "CopyTextArea0g16416c8be3c46",
             "propertyName": "text",
             "propertyValue": "password is '111111'",
             "itemKUID": "i1591484dcb8499cba6bf3d04d3ac24a",
@@ -129,8 +122,7 @@
             "isSkinProperty": false,
             "wType": "TextArea",
             "forkedPlatform": "all",
-            "callbackType": null,
-            "widgetPath": "this.view.CopyTextArea0g16416c8be3c46"
+            "callbackType": null
         }]
     }
 }

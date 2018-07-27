@@ -36,8 +36,8 @@
     "autogrowmode": 0,
     "canUpdateUI": true,
     "children": [
-        "TextArea0g8c4581680c241",
-        "FlexContainer0ce00836f07d145"
+        "FlexContainer0ce00836f07d145",
+        "TextField0g0e685fdfb9d43"
     ],
     "clipbounds": true,
     "containerweight": 100,

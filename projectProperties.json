@@ -238,5 +238,15 @@
     "watchos_notificationcentericon_38": "",
     "watchos_notificationcentericon_42": "",
     "watchos_watchMarketing1x": "",
-    "enableactionbar": false
+    "enableactionbar": false,
+    "accountCloudGuid": "72151374-42ef-48b9-8bc2-d8c8c3590a02",
+    "projectCloudGuid": "2ea88006-edcb-41e8-a0ff-6e6c0a00f94f",
+    "prototype": {
+        "PublishMode": "public",
+        "resourceId": "834f517b-5ee6-4fb6-8ab5-cf8156977970",
+        "createdBy": "Ievgen Nikolskyi",
+        "shareGuid": "QRCUZ",
+        "createdOn": "2018-07-26T22:12:36.924Z",
+        "createdById": "a754dd37-d395-4835-a4a2-6b75eaaf3544"
+    }
 }
