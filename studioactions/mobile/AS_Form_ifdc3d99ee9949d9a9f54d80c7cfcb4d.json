@@ -1,0 +1,24 @@
+{
+    "AS_Form_ifdc3d99ee9949d9a9f54d80c7cfcb4d": {
+        "id": "AS_Form_ifdc3d99ee9949d9a9f54d80c7cfcb4d",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "FormLoginVariant2",
+            "type": "forms",
+            "platform": "",
+            "KUID": "i1591484dcb8499cba6bf3d04d3ac24a"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__e6eb745c0df94cd9b4484765294543ff",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "FormLoginVariant2.TextField0g0e685fdfb9d43 = \"\";\nFormLoginVariant2.CopyTextField0i687b0214b454d = \"\";",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

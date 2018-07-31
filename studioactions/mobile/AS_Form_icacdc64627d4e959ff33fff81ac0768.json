@@ -1,0 +1,24 @@
+{
+    "AS_Form_icacdc64627d4e959ff33fff81ac0768": {
+        "id": "AS_Form_icacdc64627d4e959ff33fff81ac0768",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "FormLoginVariant2",
+            "type": "forms",
+            "platform": "",
+            "KUID": "i1591484dcb8499cba6bf3d04d3ac24a"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__h8a210975bba464aa7c5496313345e68",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "FormLoginVariant2.Button0f7f81d401c2c4d.onClick = function chkUser() {validateUser();};",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

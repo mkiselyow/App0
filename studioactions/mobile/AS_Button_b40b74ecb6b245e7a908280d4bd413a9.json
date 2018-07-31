@@ -23,6 +23,7 @@
             "parentId": "",
             "callbackType": null,
             "enableMappingEditor": true,
+            "disabled": true,
             "package": ""
         }]
     }

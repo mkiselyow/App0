@@ -90,6 +90,36 @@
             "callbackType": null,
             "widgetPath": "this.view.CopyFlexContainerErrCustom0i801c4f174a14a"
         }, {
+            "id": "MOVE_ACTION____d88198600a9c44e28c447999dbeecf2e",
+            "type": "MOVE_ACTION",
+            "itemType": "FORM",
+            "itemId": "FormLoginVariant2",
+            "widgetId": "CopyFlexContainerErrCustom0i801c4f174a14a",
+            "itemKUID": "i1591484dcb8499cba6bf3d04d3ac24a",
+            "widgetKUID": "a2150580248b4ccdbc411815bdef9fe3",
+            "wType": "FlexContainer",
+            "animationObject": {
+                "top": "2%",
+                "anchorPoint": {},
+                "stepConfig": {
+                    "timingFunction": "kony.anim.EASE"
+                }
+            },
+            "config": {
+                "delay": "0",
+                "iterationCount": 1,
+                "fillMode": "kony.anim.FILL_MODE_FORWARDS",
+                "duration": "400"
+            },
+            "start": "Immediately",
+            "parentAnimation": "____ebb5d2f37c0d4e72a68f95cc0e39bce9",
+            "animationId": "MOVE_ACTION____d88198600a9c44e28c447999dbeecf2e",
+            "displayAnimationId": "MOVE_ACTION____d88198600a9c44e28c447999dbeecf2e",
+            "forkedPlatform": "all",
+            "parentId": "ELSE_CONDITION__ac62eb73e53f44a680a0d27e45341274",
+            "callbackType": null,
+            "widgetPath": "this.view.CopyFlexContainerErrCustom0i801c4f174a14a"
+        }, {
             "id": "SET_FORM_WIDGET_PROPERTY____c3caea7e40e64acbbe77dc15ae6d9486",
             "type": "SET_WIDGET_PROPERTY",
             "itemType": "FORM",
@@ -152,6 +182,35 @@
             "parentId": null,
             "widgetPath": "this.view.FlexContainer0e8bc44cec82048"
         }, {
+            "id": "____b1e03c694b524bcd913ec4e3eb2b60e4",
+            "type": "MOVE_ACTION",
+            "itemType": "FORM",
+            "itemId": "FormLoginVariant2",
+            "widgetId": "CopyFlexContainerErrCustom0i801c4f174a14a",
+            "itemKUID": "i1591484dcb8499cba6bf3d04d3ac24a",
+            "widgetKUID": "a2150580248b4ccdbc411815bdef9fe3",
+            "wType": "FlexContainer",
+            "animationObject": {
+                "top": "-10%",
+                "anchorPoint": {},
+                "stepConfig": {
+                    "timingFunction": "kony.anim.EASE"
+                }
+            },
+            "config": {
+                "delay": "0",
+                "iterationCount": 1,
+                "fillMode": "kony.anim.FILL_MODE_FORWARDS",
+                "duration": "400"
+            },
+            "start": "Immediately",
+            "parentAnimation": "____ebb5d2f37c0d4e72a68f95cc0e39bce9",
+            "animationId": "____b1e03c694b524bcd913ec4e3eb2b60e4",
+            "displayAnimationId": "MOVE_ACTION____d88198600a9c44e28c447999dbeecf2e",
+            "forkedPlatform": "all",
+            "parentId": "IF_CONDITION__d75d9109ee824d81a26e6a889732d851",
+            "widgetPath": "this.view.CopyFlexContainerErrCustom0i801c4f174a14a"
+        }, {
             "id": "SET_FORM_WIDGET_PROPERTY____h5fcc43d9eb64d2d990d6b46102e1517",
             "type": "SET_WIDGET_PROPERTY",
             "itemType": "FORM",
@@ -164,7 +223,8 @@
             "isSkinProperty": false,
             "wType": "FlexContainer",
             "forkedPlatform": "all",
-            "parentId": "IF_CONDITION__d75d9109ee824d81a26e6a889732d851",
+            "parentId": "____b1e03c694b524bcd913ec4e3eb2b60e4",
+            "callbackType": "Callback",
             "widgetPath": "this.view.CopyFlexContainerErrCustom0i801c4f174a14a"
         }]
     }

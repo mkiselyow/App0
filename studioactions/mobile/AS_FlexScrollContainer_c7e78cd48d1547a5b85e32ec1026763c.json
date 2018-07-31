@@ -1,0 +1,24 @@
+{
+    "AS_FlexScrollContainer_c7e78cd48d1547a5b85e32ec1026763c": {
+        "id": "AS_FlexScrollContainer_c7e78cd48d1547a5b85e32ec1026763c",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "FormLogOut",
+            "type": "forms",
+            "platform": "",
+            "KUID": "g4ac0b23b40b4fdfaeb875c14d8cf851"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__e0fbe33f5c2748c196390682ce88ed77",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "// if (this.view.FlexContainer0b136d7319b5244.left < 0) {\n  alert(this.view.FlexContainer0b136d7319b5244.left);\n//   this.view.FlexContainer0b136d7319b5244.left = 0;\n// } else {\n//   this.view.FlexContainer0b136d7319b5244.left = -100;\n// };",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

@@ -1,0 +1,95 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizUserWidget",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_bottom_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_children_": [],
+    "_height_": {
+        "type": "string",
+        "value": "7%"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 1,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_render_": true,
+    "_skin_": "sd902bcf9b764bccbfc5974c13f52776",
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "areflexpropsreferenced": false,
+    "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50%"
+    },
+    "clipbounds": true,
+    "containerweight": 0,
+    "dataDiffs": {
+        "Button0f7f81d401c2c4d": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "hc386b099cf742c7acdbed45379445a6",
+                "srcKUID": "d891fc1fa7514cf88dbfd16ad12bc63e",
+                "wType": "Button"
+            }
+        },
+        "CopyButton0ce5178306b1e4a": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "if455575abdb45f085046e7d56043287",
+                "srcKUID": "e5ea40fa0a884db3b8fbf5a6c190f7c6",
+                "wType": "Button"
+            }
+        },
+        "MyMenu": {
+            "__events__": {},
+            "__info__": {
+                "isRoot": true,
+                "kuid": "e13f8c11f8d94226bc5fdbd49870713c",
+                "srcKUID": "f9e536fa8d3146ed8438b2865a2befdf",
+                "wType": "FlexContainer"
+            },
+            "autogrowMode": {
+                "Default": 0
+            },
+            "height": {
+                "Default": {
+                    "type": "string",
+                    "value": "7%"
+                }
+            }
+        }
+    },
+    "id": "CustomFooter",
+    "info": null,
+    "iscustomlayout": false,
+    "isdatareferenced": false,
+    "isvisible": true,
+    "kuid": "e13f8c11f8d94226bc5fdbd49870713c",
+    "layouttype": 2,
+    "masterType": 0,
+    "name": "kony.ui.UserWidgetInstance",
+    "parent": "FormLoginVariant2",
+    "pf": "FormLoginVariant2",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "snaptogrid": true,
+    "sourceUserWidget": "f9e536fa8d3146ed8438b2865a2befdf",
+    "wType": "UserWidgetInstance",
+    "zindex": 300
+}

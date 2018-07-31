@@ -6,7 +6,11 @@ define({
     AS_TextField_j6abf6fe16c14036972cdb2af514207d: function AS_TextField_j6abf6fe16c14036972cdb2af514207d(eventobject, changedtext) {
         var self = this;
 
+        function ____b1e03c694b524bcd913ec4e3eb2b60e4_Callback() {
+            self.view.CopyFlexContainerErrCustom0i801c4f174a14a.isVisible = false;
+        }
         function ____ddd1ac42bc744a379f0c34b84857f484_Callback() {}
+        function MOVE_ACTION____d88198600a9c44e28c447999dbeecf2e_Callback() {}
         function ____ebb5d2f37c0d4e72a68f95cc0e39bce9_Callback() {}
         if ((self.view.TextField0g0e685fdfb9d43.text == 'login@gmail.com')) {
             self.view.TextField0g0e685fdfb9d43.animate(
@@ -26,9 +30,40 @@ define({
             }, {
                 "animationEnd": ____ebb5d2f37c0d4e72a68f95cc0e39bce9_Callback
             });
-            self.view.CopyFlexContainerErrCustom0i801c4f174a14a.isVisible = false;
+            self.view.CopyFlexContainerErrCustom0i801c4f174a14a.animate(
+            kony.ui.createAnimation({
+                "100": {
+                    "top": "-10%",
+                    "stepConfig": {
+                        "timingFunction": kony.anim.EASE
+                    }
+                }
+            }), {
+                "delay": 0,
+                "iterationCount": 1,
+                "fillMode": kony.anim.FILL_MODE_FORWARDS,
+                "duration": 0.4
+            }, {
+                "animationEnd": ____b1e03c694b524bcd913ec4e3eb2b60e4_Callback
+            });
         } else {
             self.view.CopyFlexContainerErrCustom0i801c4f174a14a.isVisible = true;
+            self.view.CopyFlexContainerErrCustom0i801c4f174a14a.animate(
+            kony.ui.createAnimation({
+                "100": {
+                    "top": "2%",
+                    "stepConfig": {
+                        "timingFunction": kony.anim.EASE
+                    }
+                }
+            }), {
+                "delay": 0,
+                "iterationCount": 1,
+                "fillMode": kony.anim.FILL_MODE_FORWARDS,
+                "duration": 0.4
+            }, {
+                "animationEnd": MOVE_ACTION____d88198600a9c44e28c447999dbeecf2e_Callback
+            });
             self.view.CopyLabel0c62b34aa333741.text = "'not login@gmail.com email'";
             self.view.TextField0g0e685fdfb9d43.animate(
             kony.ui.createAnimation({
@@ -74,10 +109,30 @@ define({
     AS_TextField_a42a959ab4954594b042cf03ccbbb271: function AS_TextField_a42a959ab4954594b042cf03ccbbb271(eventobject, changedtext) {
         var self = this;
 
+        function ____b3fdff2330704607962d33bb96761f09_Callback() {
+            self.view.CopyFlexContainerErrCustom0i801c4f174a14a.isVisible = false;
+        }
         function ____ee2b9f8891044368880d3f56a9c63c35_Callback() {}
         function ____cfb6324892b04201946be51f3f56aba4_Callback() {}
+        function ____a4bb043b6ebd4488b19fb2c1adb0d208_Callback() {}
         if ((self.view.CopyTextField0i687b0214b454d.text !== '111111')) {
             self.view.CopyFlexContainerErrCustom0i801c4f174a14a.isVisible = true;
+            self.view.CopyFlexContainerErrCustom0i801c4f174a14a.animate(
+            kony.ui.createAnimation({
+                "100": {
+                    "top": "2%",
+                    "stepConfig": {
+                        "timingFunction": kony.anim.EASE
+                    }
+                }
+            }), {
+                "delay": 0,
+                "iterationCount": 1,
+                "fillMode": kony.anim.FILL_MODE_FORWARDS,
+                "duration": 0.4
+            }, {
+                "animationEnd": ____a4bb043b6ebd4488b19fb2c1adb0d208_Callback
+            });
             self.view.CopyLabel0c62b34aa333741.text = "'not 111111 password'";
             self.view.CopyTextField0i687b0214b454d.animate(
             kony.ui.createAnimation({
@@ -114,7 +169,22 @@ define({
             }, {
                 "animationEnd": ____ee2b9f8891044368880d3f56a9c63c35_Callback
             });
-            self.view.CopyFlexContainerErrCustom0i801c4f174a14a.isVisible = false;
+            self.view.CopyFlexContainerErrCustom0i801c4f174a14a.animate(
+            kony.ui.createAnimation({
+                "100": {
+                    "top": "-10%",
+                    "stepConfig": {
+                        "timingFunction": kony.anim.EASE
+                    }
+                }
+            }), {
+                "delay": 0,
+                "iterationCount": 1,
+                "fillMode": kony.anim.FILL_MODE_FORWARDS,
+                "duration": 0.4
+            }, {
+                "animationEnd": ____b3fdff2330704607962d33bb96761f09_Callback
+            });
         }
         self.view.FlexContainer0e8bc44cec82048.top = "25%";
     },
@@ -141,7 +211,18 @@ define({
     /** onClick defined for Button0f7f81d401c2c4d **/
     AS_Button_b40b74ecb6b245e7a908280d4bd413a9: function AS_Button_b40b74ecb6b245e7a908280d4bd413a9(eventobject) {
         var self = this;
-        var ntf = new kony.mvc.Navigation("FormLogOut");
-        ntf.navigate();
+    },
+    /** postShow defined for FormLoginVariant2 **/
+    AS_Form_icacdc64627d4e959ff33fff81ac0768: function AS_Form_icacdc64627d4e959ff33fff81ac0768(eventobject) {
+        var self = this;
+        FormLoginVariant2.Button0f7f81d401c2c4d.onClick = function chkUser() {
+            validateUser();
+        };
+    },
+    /** preShow defined for FormLoginVariant2 **/
+    AS_Form_ifdc3d99ee9949d9a9f54d80c7cfcb4d: function AS_Form_ifdc3d99ee9949d9a9f54d80c7cfcb4d(eventobject) {
+        var self = this;
+        FormLoginVariant2.TextField0g0e685fdfb9d43 = "";
+        FormLoginVariant2.CopyTextField0i687b0214b454d = "";
     }
 });

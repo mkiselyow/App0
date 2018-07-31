@@ -19,6 +19,7 @@
     "_title_": null,
     "addWidgetsdone": false,
     "allboxes": [],
+    "allowhorizontalbounce": true,
     "android": {
         "needAppMenu": false,
         "psp": {
@@ -28,9 +29,11 @@
     "androidwearos": {
         "needAppMenu": false
     },
+    "bounces": false,
     "canUpdateUI": true,
     "children": [
-        "FlexContainer0e0fafc78a23741"
+        "FlexContainer0e0fafc78a23741",
+        "CustomFooter"
     ],
     "containerweight": 100,
     "controllerInfo": {
@@ -44,9 +47,18 @@
         "needAppMenu": false
     },
     "device": "Pixel",
+    "disabledSkins": {
+        "menuFocusSkin": "sb96db0955584a26a98ad19ecb2b4235",
+        "menuNormalSkin": "s6af150b50654e348bc0f6efe237c212"
+    },
     "displayorientation": 1,
     "enabledforidletimeout": false,
+    "enablescrolling": false,
+    "footeroverlap": false,
+    "headeroverlap": false,
     "id": "FormLoginVariant2",
+    "ide_postShow": "AS_Form_icacdc64627d4e959ff33fff81ac0768",
+    "ide_preShow": "AS_Form_ifdc3d99ee9949d9a9f54d80c7cfcb4d",
     "info": null,
     "initdone": false,
     "inputaccessoryviewtype": 4,
@@ -60,6 +72,7 @@
     "iphone": {
         "needAppMenu": false,
         "psp": {
+            "configureExtendBottom": false,
             "inputAccessoryViewType": 4,
             "titleBarAttributes": {
                 "barStyle": 0,
@@ -105,7 +118,7 @@
     "retainscrollposition": false,
     "shellCSS": "and_Pixel",
     "snapgridsize": 10,
-    "snaptogrid": true,
+    "snaptogrid": false,
     "spaan": {
         "needAppMenu": false
     },
@@ -128,7 +141,7 @@
         "needAppMenu": false
     },
     "titleBarSkin": "seed5f6f083d4ec7b0e4756948db2d2f",
-    "titlebar": true,
+    "titlebar": false,
     "type": 3,
     "wType": "Form",
     "windows8": {

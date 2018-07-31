@@ -1,0 +1,79 @@
+{
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 6,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_skin_": "scc3fe9c2e874cc5a13412a7129e1aff",
+    "_top_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "allboxes": [],
+    "allowhorizontalbounce": false,
+    "allowverticalbounce": true,
+    "bounces": true,
+    "canUpdateUI": true,
+    "children": [
+        "FlexScrollContainerHorizontalSlider0hb7e9c0bef3f4f",
+        "FlexContainer0hdb6b30c6a3f43",
+        "CopyFlexContainer0e13f0ff4494547",
+        "CopyFlexContainer0da720533d1f141",
+        "CopyFlexContainer0fe0d82a66b694c",
+        "CopyFlexContainer0e6e84a6a25d347",
+        "CopyFlexContainer0fa5c50b31dc144",
+        "CopyFlexContainer0b38338ecb8144b",
+        "CopyFlexContainer0ef16243a7b3747",
+        "CopyFlexContainer0c2b8db2a4f7248"
+    ],
+    "clipbounds": true,
+    "containerweight": 100,
+    "decelerat": false,
+    "dragg": false,
+    "enablescrolling": true,
+    "horizontalscrollindicator": true,
+    "id": "FlexScrollContainer0gf4746bf50a44a",
+    "ide_onScrolling": "AS_FlexScrollContainer_i8d66e16bd3743ec9c57d3ce459c7f29",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "bdf63ef5080342978c026e66c129e354",
+    "layouttype": 4,
+    "name": "kony.ui.FlexScrollContainer",
+    "pagingenabled": false,
+    "parent": "FlexContainer0d7752dcb1eb44a",
+    "pf": "FormLogOut",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "scrolldirection": 2,
+    "snapgridsize": 10,
+    "snaptogrid": true,
+    "track": false,
+    "verticalscrollindicator": false,
+    "wType": "FlexScrollContainer",
+    "widgetalignment": 1,
+    "zindex": 1
+}

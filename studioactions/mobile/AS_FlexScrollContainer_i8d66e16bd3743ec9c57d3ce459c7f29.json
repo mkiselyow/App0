@@ -1,0 +1,55 @@
+{
+    "AS_FlexScrollContainer_i8d66e16bd3743ec9c57d3ce459c7f29": {
+        "id": "AS_FlexScrollContainer_i8d66e16bd3743ec9c57d3ce459c7f29",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "FormLogOut",
+            "type": "forms",
+            "platform": "",
+            "KUID": "g4ac0b23b40b4fdfaeb875c14d8cf851"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__a608f032df4042ebb44c78cf289c214a",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "if (this.view.FlexScrollContainer0gf4746bf50a44a.contentOffsetMeasured.y >= 85) {\n  alert('catch > 85');\n  alert(this.view.FlexContainer0h995a1891a5840.backgroundColor);\n  this.view.FlexContainer0h995a1891a5840.backgroundColor = 942694;\n}",
+            "parentId": null,
+            "callbackType": null,
+            "disabled": true
+        }, {
+            "id": "IF_CONDITION__af53681589604ce986da5cd4cb2ddf58",
+            "type": "IF_CONDITION",
+            "conditions": [{
+                "leftValueType": "widgetprop",
+                "leftValue": "this.view.FlexScrollContainer0gf4746bf50a44a.contentOffsetMeasured",
+                "rightValueType": "value",
+                "operator": ">",
+                "leftItemKUID": "g4ac0b23b40b4fdfaeb875c14d8cf851",
+                "leftWidgetKUID": "bdf63ef5080342978c026e66c129e354"
+            }],
+            "parentId": null,
+            "callbackType": null,
+            "criteria": "all"
+        }, {
+            "id": "SET_FORM_WIDGET_PROPERTY_Untitled___b28523a0198b4a65af8a10f929c706f5",
+            "type": "SET_WIDGET_PROPERTY",
+            "itemType": "FORM",
+            "itemId": "FormLogOut",
+            "widgetId": "FlexContainer0h995a1891a5840",
+            "propertyName": "opacity",
+            "propertyValue": "1",
+            "itemKUID": "g4ac0b23b40b4fdfaeb875c14d8cf851",
+            "widgetKUID": "e898c4b8999148d6ba737e45344a3db3",
+            "isSkinProperty": false,
+            "wType": "FlexContainer",
+            "forkedPlatform": "all",
+            "parentId": "IF_CONDITION__af53681589604ce986da5cd4cb2ddf58",
+            "callbackType": null,
+            "widgetPath": "this.view.FlexContainer0h995a1891a5840"
+        }]
+    }
+}

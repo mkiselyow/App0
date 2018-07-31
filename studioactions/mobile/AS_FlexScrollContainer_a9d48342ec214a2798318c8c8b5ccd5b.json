@@ -1,0 +1,18 @@
+{
+    "AS_FlexScrollContainer_a9d48342ec214a2798318c8c8b5ccd5b": {
+        "id": "AS_FlexScrollContainer_a9d48342ec214a2798318c8c8b5ccd5b",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "FormLogOut",
+            "type": "forms",
+            "platform": "",
+            "KUID": "g4ac0b23b40b4fdfaeb875c14d8cf851"
+        },
+        "language": "js",
+        "actions": []
+    }
+}

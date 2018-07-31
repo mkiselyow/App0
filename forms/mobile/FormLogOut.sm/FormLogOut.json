@@ -28,9 +28,13 @@
     "androidwearos": {
         "needAppMenu": false
     },
+    "bounces": false,
     "canUpdateUI": true,
     "children": [
-        "FlexContainer0e0fafc78a23741"
+        "FlexContainerBG0e0fafc78a23741",
+        "InfoContainer",
+        "CustomFooter",
+        "FlexContainer0d7752dcb1eb44a"
     ],
     "containerweight": 100,
     "controllerInfo": {
@@ -46,6 +50,7 @@
     "device": "iPhoneX",
     "displayorientation": 1,
     "enabledforidletimeout": false,
+    "enablescrolling": false,
     "id": "FormLogOut",
     "info": null,
     "initdone": false,
@@ -98,8 +103,8 @@
     "needappmenu": false,
     "paddinginpixel": false,
     "platform": "iphone",
-    "prevDevice": "iPhoneX",
-    "prevPlatform": "iphone",
+    "prevDevice": "Pixel",
+    "prevPlatform": "android",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
     "retainscrollposition": false,
